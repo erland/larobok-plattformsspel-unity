@@ -1,0 +1,55 @@
+title: Skapa plattformsspel med Unity
+subtitle: Från första projektet till versionshantering, programmering och spelbar
+  prototyp
+author: Erland Lindmark
+language: sv
+difficulty: basic
+audience: Personer som experimenterat lite med programmering men vill lära sig strukturerad
+  Unity- och C#-utveckling.
+book_type: textbook
+edition: '1'
+version: "0.4"
+date: '2026-05-17'
+rights: All rights reserved
+publisher: ''
+cover_image: "assets/cover/cover.png"
+identifier: urn:uuid:044352bb-8c97-4d9b-ba5b-43919e4ae2fa
+creator_role: aut
+subject: Unity, C#, plattformsspel, spelutveckling, Git, GitHub
+description: En praktisk svensk lärobok om att skapa ett 2D-plattformsspel med Unity,
+  från installation och första projekt till programmering, spelmekanik och versionshantering.
+project_slug: skapa-plattformsspel-med-unity
+zip_naming:
+  initial: skapa-plattformsspel-med-unity-projekt.zip
+  chapter_update: skapa-plattformsspel-med-unity-projekt-kapitel-NN.zip
+chapters:
+- chapters/00-inledning.md
+- chapters/01-installera-verktygen.md
+- chapters/02-forsta-unitys-arbetsyta.md
+- chapters/03-csharp-for-unity-grunderna.md
+- chapters/04-spelarens-forsta-rorelse.md
+- chapters/05-hopp-gravitation-och-markkontroll.md
+- chapters/06-bygg-en-enkel-bana.md
+- chapters/07-kamera-som-foljer-spelaren.md
+- chapters/08-fiender-och-hinder.md
+- chapters/09-halsa-liv-och-checkpoints.md
+- chapters/10-samla-objekt-och-visa-poang.md
+- chapters/11-animationer-och-spelkansla.md
+- chapters/12-menyer-nivabyte-och-spel-loop.md
+- chapters/13-versionshantera-unity-projekt-med-git-och-github.md
+- chapters/14-bygg-testa-och-paketera-prototypen.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true

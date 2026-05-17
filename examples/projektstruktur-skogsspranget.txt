@@ -1,0 +1,6 @@
+Assets/
+  Scenes/
+    MainScene.unity
+  Scripts/
+  Sprites/
+  Prefabs/
